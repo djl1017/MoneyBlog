@@ -1,0 +1,11 @@
+# 本文件专门用来设置数据库连接等
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'NAME': 'money_blog',
+        'USER': 'root',
+        'PASSWORD': 'root',
+    }
+}
